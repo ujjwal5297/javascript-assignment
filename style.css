@@ -43,22 +43,13 @@ h1{
     text-align: center;
 }
 
-#even-odd{ 
+#evenOdd{ 
     border-radius: 21px;
     border: 5px solid #244624;
     font-size:34px;
     height: 65px;
     width: 511px;
     margin-top: 25px;
-}
-
-.even_odd-button{
-    border-radius: 20px;
-    font-size: 25px;
-    background: #978fa0;
-    width: 200px;
-    height: 90px;
-    margin: 6px;
 }
 
 #showMsg {

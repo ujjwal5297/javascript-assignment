@@ -42,4 +42,25 @@ function isCheck(){
     if(num === ""){
     document.getElementById('showMsg').innerHTML = "";
     }
+   };
+
+   function isChecks() {
+    let num1 = document.getElementById('prime').value;
+    var isPrimeNumber = true;
+    for( let i=2; i<num1; i++){
+    if(num1% i == 0) {
+        isPrimeNumber = false;
+        // document.getElementById('showMsgs').innerHTML = num1+" is not a prime number";
+    }
+}
+
+    if(isPrimeNumber == true) {
+        document.getElementById('showMsgs').innerHTML = num1+" is a prime number";
+    }
+    else {
+        document.getElementById('showMsgs').innerHTML = num1+" is not a prime number"
+    }
+    // else {
+    //     document.getElementById('showMsgs').innerHTML = "";
+    // }
    }
