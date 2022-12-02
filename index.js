@@ -29,4 +29,17 @@ for (item of buttons) {
     })
 };
 
-let a= parseInt(a)
+function isCheck(){
+    var num = document.getElementById('evenOdd').value;
+    // alert(num);
+    if((num%2) == 0){
+    document.getElementById('showMsg').innerHTML = num+"  is an even number";
+    }
+    else{
+    document.getElementById('showMsg').innerHTML = num+"  is not an even number";
+    }
+   
+    if(num === ""){
+    document.getElementById('showMsg').innerHTML = "";
+    }
+   }
