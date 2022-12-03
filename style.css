@@ -57,3 +57,12 @@ h1{
     font-weight: 800;
     font-size: 34px;
 }
+
+#backgroundColor {
+    text-align: center;
+    margin-top:23px
+}
+
+option {
+    font-size: 34px;
+}

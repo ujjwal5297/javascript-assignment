@@ -1,5 +1,5 @@
 let screen = document.getElementById('screen');
-buttons = document.querySelectorAll('calculate');
+buttons = document.querySelectorAll('#calculate');
 let screenValue = '';
 for (item of buttons) {
     item.addEventListener('click', (e) => {
@@ -18,7 +18,7 @@ for (item of buttons) {
             screen.value = eval(screenValue);
         }
         else if (
-            parseInt(buttonText) < 0) {
+            parseInt(screenValue) < 0) {
             screen.value = alert('you cannot enter a negative value')
         }
         else {
@@ -64,3 +64,21 @@ function isCheck(){
     //     document.getElementById('showMsgs').innerHTML = "";
     // }
    }
+
+   function changeBg() {
+  document.getElementById('backgroundColor');
+  let value = "green"
+
+  switch(value){
+    case 'green':
+        document.body.style.background ='green';
+    case 'blue' :
+        document.body.style.background = 'blue';    
+    case 'red' :
+        document.body.style.background = 'red';    
+    case 'orange' :
+        document.body.style.background = 'orange';    
+  }
+  
+   }
+   
